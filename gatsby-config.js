@@ -224,7 +224,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
         stylesPath: `${__dirname}/src/assets/sass/styles.sass`,
         enableIdentityWidget: true,
-        htmlTitle: `Gatsby Starter Business Content Manager`,
+        htmlTitle: `OhhDenny Services, LLC Content Manager`,
       },
     },
     {

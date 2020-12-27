@@ -4,7 +4,7 @@ A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycm
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
 
 ## Demo
-[Gatsby Starter Business](https://gatsby-starter-business.netlify.com)
+[OhhDenny Services, LLC](https://gatsby-starter-business.netlify.com)
 
 ## Features
 * Complete Business Website Suite - Home Page, About Page, Pricing Page, Contact Page and Blog
@@ -27,6 +27,12 @@ It follows the [JAMstack architecture](https://jamstack.org) by using Git as a s
 Create your own project with Gatsby CLI:
 ```shell
 gatsby new yourbusinessname https://github.com/v4iv/gatsby-starter-business.git 
+```
+
+Goto the newly created directory, then run `gatsby develop`
+```shell
+cd ohhdennyservicesllc
+gatsby develop 
 ```
 
 ## Available Scripts
@@ -66,7 +72,7 @@ To personalize and configure this Starter open `config.js` file and replace the 
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Business', // Site title.
+  siteTitle: 'OhhDenny Services, LLC', // Site title.
   siteTitleAlt: 'Business', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://gatsby-starter-business.netlify.com', // Domain of your website without pathPrefix.
@@ -81,7 +87,7 @@ module.exports = {
   userTwitter: 'vaibhaved',
   userLocation: 'Delhi NCR, India',
   userDescription: '',
-  copyright: 'Copyright © Gatsby Starter Business 2018. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © OhhDenny Services, LLC 2018. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
